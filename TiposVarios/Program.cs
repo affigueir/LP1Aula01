@@ -15,6 +15,9 @@ namespace TiposVarios
             char Tree = '\u0128';
             char Wall = '\u014E';
 
+            bool Mom = true;
+            bool Dad = false;
+
             Console.WriteLine(Bob);
             Console.WriteLine(Mary);
             Console.WriteLine(Charles);
@@ -22,6 +25,8 @@ namespace TiposVarios
             Console.WriteLine(Bernie);
             Console.WriteLine(Tree);
             Console.WriteLine(Wall);
+            Console.WriteLine(Mom);
+            Console.WriteLine(Dad);
         }
     }
 }
