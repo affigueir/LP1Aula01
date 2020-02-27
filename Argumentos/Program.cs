@@ -6,9 +6,11 @@ namespace Argumentos
     {
         static void Main(string[] args)
         {
-            for (int i = 0 ; i < args.Length; i++)
+            for (int i = 0; i < args.Length; i++)
+            //gets arguments from command line
             {
                 Console.WriteLine(args[i]);
+                //writes arguments
             }
         }
     }
