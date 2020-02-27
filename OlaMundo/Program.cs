@@ -10,9 +10,10 @@ namespace OlaMundo
         /// <summary>
         /// Main Function
         /// </summary>
-        /// <param name="args"></param>
+        /// <param name="args">
+        /// Fetch args from command line
+        /// </param>
         static void Main(string[] args)
-        //Fetch args from command line
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Bye World :(");
