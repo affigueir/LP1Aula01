@@ -6,8 +6,12 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            double xx = 0.12345;
+            int ii = 18;
+
             int a = 6;
             int b = 9;
+            
             string x = "smalljackson";
             string Mom = "Wheres Dad?";
             string Son = @"(?##|\)";
@@ -17,6 +21,7 @@ namespace VariasStrings
             string QuickMaths = "two" + "+" + 2 + " is four"; 
             string Jackson5 = "abc" + x;
             string Bob = String.Format("Numbers like {1} and {0} give me the goose", 24, 25);
+            
             Console.WriteLine(Mom);
             Console.WriteLine(Son);
             Console.WriteLine(Sister);
@@ -26,7 +31,10 @@ namespace VariasStrings
             Console.WriteLine($"{a} mais {b} e' igual a {a + b}");
             Console.WriteLine(Bob);
             Console.WriteLine(@"Marmotas comem algas do mato {0}", 42);
-            
+            Console.WriteLine($"xx ={xx:f2}");
+            Console.WriteLine($"xx ={xx:p1}");
+            Console.WriteLine($"ii ={ii:x}");
+            Console.WriteLine($"ii ={ii:c}");
         }
     }
 }
