@@ -18,7 +18,7 @@ namespace VariasStrings
             string Sister = "\"Kill Dad he says.\"";
             string Dog = @"""/Woof\?""";
 
-            string QuickMaths = "two" + "+" + 2 + " is four"; 
+            string QuickMaths = "two + " + 2 + " is four"; 
             string Jackson5 = "abc" + x;
             string Bob = String.Format("Numbers like {1} and {0} give me the goose", 24, 25);
             
