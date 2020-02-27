@@ -12,12 +12,16 @@ namespace TiposVarios
 
             double Donald = 0.15;
             double Bernie = 0.90;
+            char Tree = '\u0128';
+            char Wall = '\u014E';
 
             Console.WriteLine(Bob);
             Console.WriteLine(Mary);
             Console.WriteLine(Charles);
             Console.WriteLine(Donald);
             Console.WriteLine(Bernie);
+            Console.WriteLine(Tree);
+            Console.WriteLine(Wall);
         }
     }
 }
