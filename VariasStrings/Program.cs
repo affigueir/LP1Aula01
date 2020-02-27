@@ -7,7 +7,7 @@ namespace VariasStrings
         static void Main(string[] args)
         {
             string Mom = "Wheres Dad?";
-            string Son = @"( ͡° ͜ʖ ͡°)";
+            string Son = @"(?##|\)";
             string Sister = "\"Kill Dad he says.\"";
             string Dog = @"""/Woof\?""";
 
